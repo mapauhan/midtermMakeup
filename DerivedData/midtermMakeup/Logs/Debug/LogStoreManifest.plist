@@ -6,6 +6,64 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
+		<key>065D23B0-73E0-4A28-B6F0-E4D8050FC0C9</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>065D23B0-73E0-4A28-B6F0-E4D8050FC0C9.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575677302.58035803</real>
+			<key>timeStoppedRecording</key>
+			<real>575677341.99272096</real>
+			<key>title</key>
+			<string>Debug midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>065D23B0-73E0-4A28-B6F0-E4D8050FC0C9</string>
+		</dict>
+		<key>0C8B6C00-40A1-4614-B9B0-8BA72C1EA307</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0C8B6C00-40A1-4614-B9B0-8BA72C1EA307.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575674797.08658695</real>
+			<key>timeStoppedRecording</key>
+			<real>575675160.94985104</real>
+			<key>title</key>
+			<string>Debug midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>0C8B6C00-40A1-4614-B9B0-8BA72C1EA307</string>
+		</dict>
 		<key>37235837-C7D3-42F6-8649-70179E2DCB03</key>
 		<dict>
 			<key>className</key>
@@ -34,6 +92,93 @@
 			<string>Debug midtermMakeup</string>
 			<key>uniqueIdentifier</key>
 			<string>37235837-C7D3-42F6-8649-70179E2DCB03</string>
+		</dict>
+		<key>3B802ABF-3CD9-4792-85C5-85A82F8975C4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3B802ABF-3CD9-4792-85C5-85A82F8975C4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575674447.73109806</real>
+			<key>timeStoppedRecording</key>
+			<real>575674599.97820497</real>
+			<key>title</key>
+			<string>Debug midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>3B802ABF-3CD9-4792-85C5-85A82F8975C4</string>
+		</dict>
+		<key>505A7551-474B-4A61-9598-4468FB83B983</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>505A7551-474B-4A61-9598-4468FB83B983.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575676026.72273898</real>
+			<key>timeStoppedRecording</key>
+			<real>575676141.31026006</real>
+			<key>title</key>
+			<string>Debug midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>505A7551-474B-4A61-9598-4468FB83B983</string>
+		</dict>
+		<key>6C579C92-A8D4-4965-B541-3C9417149054</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6C579C92-A8D4-4965-B541-3C9417149054.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575675172.34693205</real>
+			<key>timeStoppedRecording</key>
+			<real>575675282.54561305</real>
+			<key>title</key>
+			<string>Debug midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>6C579C92-A8D4-4965-B541-3C9417149054</string>
 		</dict>
 		<key>84C8C8D8-6F68-4C75-96DB-80DD1545904A</key>
 		<dict>
@@ -93,6 +238,35 @@
 			<key>uniqueIdentifier</key>
 			<string>8E39AE15-3C05-4353-A17D-146DCC4B00F3</string>
 		</dict>
+		<key>917C8E7F-B308-4E98-A288-8251B193AB36</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>917C8E7F-B308-4E98-A288-8251B193AB36.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575675546.79808104</real>
+			<key>timeStoppedRecording</key>
+			<real>575676007.14734304</real>
+			<key>title</key>
+			<string>Debug midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>917C8E7F-B308-4E98-A288-8251B193AB36</string>
+		</dict>
 		<key>C3D9A906-8E1C-4A50-82AC-967505618B66</key>
 		<dict>
 			<key>className</key>
@@ -121,6 +295,122 @@
 			<string>Debug midtermMakeup</string>
 			<key>uniqueIdentifier</key>
 			<string>C3D9A906-8E1C-4A50-82AC-967505618B66</string>
+		</dict>
+		<key>C59A3D22-7DA5-437E-A9C0-9FAFDB16191E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C59A3D22-7DA5-437E-A9C0-9FAFDB16191E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575674637.03440797</real>
+			<key>timeStoppedRecording</key>
+			<real>575674756.66278601</real>
+			<key>title</key>
+			<string>Debug midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>C59A3D22-7DA5-437E-A9C0-9FAFDB16191E</string>
+		</dict>
+		<key>CEDEA446-679A-4A2C-9889-53308BE3CC98</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>CEDEA446-679A-4A2C-9889-53308BE3CC98.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575673951.942173</real>
+			<key>timeStoppedRecording</key>
+			<real>575674443.958287</real>
+			<key>title</key>
+			<string>Debug midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>CEDEA446-679A-4A2C-9889-53308BE3CC98</string>
+		</dict>
+		<key>EA56219C-6833-4FF8-BAB8-F2270FCAD944</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EA56219C-6833-4FF8-BAB8-F2270FCAD944.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575677341.53214502</real>
+			<key>timeStoppedRecording</key>
+			<real>575677958.386415</real>
+			<key>title</key>
+			<string>Debug midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>EA56219C-6833-4FF8-BAB8-F2270FCAD944</string>
+		</dict>
+		<key>EBF32637-3C5D-4792-A3B9-A79BA876C881</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EBF32637-3C5D-4792-A3B9-A79BA876C881.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575676184.68139803</real>
+			<key>timeStoppedRecording</key>
+			<real>575677274.12840104</real>
+			<key>title</key>
+			<string>Debug midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>EBF32637-3C5D-4792-A3B9-A79BA876C881</string>
 		</dict>
 	</dict>
 </dict>

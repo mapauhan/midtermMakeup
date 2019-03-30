@@ -14,20 +14,47 @@ class App {
     var genre: String?
     var releaseDate: String?
     
-    init (_ appData: [String:Any]) {
+    //OOP Specialization
+    var result: Results?
+    
+    init (_ appData: Results) {
         
-        let feed = appData["feed"] as! [String:Any]
-        let result = feed["results"] as! [[String:Any]]
-        
-        let nameR = result[0]["name"] as! String
-        let devNameR = result[0]["artistName"] as! String
-        let releaseDateR = result[0]["releaseDate"] as! String
+        print(result?.devName)
+//
+//
+//        let nameR = result![0]["name"] as! String
+//        let devNameR = result[0]["artistName"] as! String
+//        let releaseDateR = result[0]["releaseDate"] as! String
 
-        self.name = nameR
-        self.devName = devNameR
-        self.releaseDate = releaseDateR
-        
+//        self.name = nameR
+//        self.devName = devNameR
+//        self.releaseDate = releaseDateR
+//        
     }
     
 }
 
+class Feed {
+    var feedData: [String:Any]
+    
+    init(_ feedData: [String:Any]) {
+        self.feedData = feedData["feed"] as! [String:Any]
+       
+    }
+    
+}
+
+class Results {
+    
+    var result: [[String:Any]]
+    var appName: String?
+    var devName: String?
+    var releaseDate: String?
+    
+    init(_ resultData: Feed) {
+    self.result = resultData[Feed]
+        print(result)
+       // self.appName = result["name"] as! String
+        
+    }
+}

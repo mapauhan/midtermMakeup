@@ -16,17 +16,18 @@ class AppsViewController: UIViewController, UITableViewDataSource, UITableViewDe
     var appData: [String:Any] = [:]
     var selectedApp: String?
     var selectedCategory: String?
+    var selectedApps: [App]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //cellNib
-        let appCell = UINib.init(nibName: "AppCellTableViewCell", bundle: nil)
-        tableView.register(appCell, forCellReuseIdentifier: "myCell")
-        tableView.reloadData()
+        let appCell = UINib(nibName: "AppCellTableViewCell", bundle: nil)
+        self.tableView.register(appCell, forCellReuseIdentifier: "myCell")
+        
         
         let category = self.selectedCategory!
-        var selectedApp: App
+//        var selectedApp: App
         
         // passes url from selectedCategory
         let url = category
@@ -35,30 +36,33 @@ class AppsViewController: UIViewController, UITableViewDataSource, UITableViewDe
                 if response.result.isSuccess {
                     print(response.result.value!)
                     self.appData = response.result.value as! [String:Any]
-                    var feed = self.appData["feed"]
-                    print(feed!)
-                   // var result = self.appData["feed"]!["results"]
+                    var myfeed = Feed(self.appData) as! [String:Any]
+                    var myResult = Results(myfeed)
                     
-//
-                  //  var result = self.appData["feed"]![0]
+                    
+
+                  // var result = self.appData["feed"]![0]
                     
                     let selectedApp = App(self.appData)
-                    print(selectedApp)
+                    print(myResult)
                     
                     //selectedApp.name = App.init(["result"["name"]]) as! String
                 }
             }
-            
+        
+        }
+    
+        func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
         }
         
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-            return appData.count
+            return 5
         }
         
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as!
-            AppCellTableViewCell
-//            let app =
+            let cell = self.tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! AppCellTableViewCell
+            //cell.nameLbl =
             return cell
             
             
