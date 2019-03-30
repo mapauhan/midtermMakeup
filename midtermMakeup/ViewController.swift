@@ -21,12 +21,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         categories.append(contentsOf: appData.keys)
+        
     }
     
+    //passes data between viewcontrollers 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "appsSegue" {
             let destinationVC = segue.destination as! AppsViewController
-//            destinationVC.selectedApp =
+            destinationVC.selectedCategory = self.selectedCategory //sends the url
 //
             
         }
@@ -44,9 +46,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let category = categories[indexPath.row]
+        let category = categories[indexPath.row] // = Key
         let url = appData[category]
-        
+        self.selectedCategory = url! //selectedCategory accesses the value from the Key
         
         print(url!)
         performSegue(withIdentifier: "appsSegue", sender: nil)

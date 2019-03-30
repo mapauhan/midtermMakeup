@@ -15,6 +15,7 @@ class AppsViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBOutlet weak var tableView: UITableView!
     var appData: [String:Any] = [:]
     var selectedApp: String?
+    var selectedCategory: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,10 +25,11 @@ class AppsViewController: UIViewController, UITableViewDataSource, UITableViewDe
         tableView.register(appCell, forCellReuseIdentifier: "myCell")
         tableView.reloadData()
         
-        var category: String = ""
+        let category = self.selectedCategory!
         var selectedApp: App
-            
-        let url = String("https://rss.itunes.apple.com/api/v1/us/ios-apps/top-paid/all/50/explicit.json")
+        
+        // passes url from selectedCategory
+        let url = category
             
             AF.request(url).responseJSON { (response) in
                 if response.result.isSuccess {

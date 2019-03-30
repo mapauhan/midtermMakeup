@@ -5,6 +5,123 @@
 	<key>logFormatVersion</key>
 	<integer>9</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>37235837-C7D3-42F6-8649-70179E2DCB03</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>37235837-C7D3-42F6-8649-70179E2DCB03.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575672582.77837098</real>
+			<key>timeStoppedRecording</key>
+			<real>575672885.13664496</real>
+			<key>title</key>
+			<string>Debug midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>37235837-C7D3-42F6-8649-70179E2DCB03</string>
+		</dict>
+		<key>84C8C8D8-6F68-4C75-96DB-80DD1545904A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>84C8C8D8-6F68-4C75-96DB-80DD1545904A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575671770.60962105</real>
+			<key>timeStoppedRecording</key>
+			<real>575672224.84579504</real>
+			<key>title</key>
+			<string>Debug midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>84C8C8D8-6F68-4C75-96DB-80DD1545904A</string>
+		</dict>
+		<key>8E39AE15-3C05-4353-A17D-146DCC4B00F3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8E39AE15-3C05-4353-A17D-146DCC4B00F3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575673582.40911806</real>
+			<key>timeStoppedRecording</key>
+			<real>575673940.24116695</real>
+			<key>title</key>
+			<string>Debug midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>8E39AE15-3C05-4353-A17D-146DCC4B00F3</string>
+		</dict>
+		<key>C3D9A906-8E1C-4A50-82AC-967505618B66</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C3D9A906-8E1C-4A50-82AC-967505618B66.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575672234.40453398</real>
+			<key>timeStoppedRecording</key>
+			<real>575672577.43808806</real>
+			<key>title</key>
+			<string>Debug midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>C3D9A906-8E1C-4A50-82AC-967505618B66</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

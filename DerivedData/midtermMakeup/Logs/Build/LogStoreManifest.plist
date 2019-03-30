@@ -5,6 +5,268 @@
 	<key>logFormatVersion</key>
 	<integer>9</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>08457354-2626-4874-B46E-6B3D41352586</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>08457354-2626-4874-B46E-6B3D41352586.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575673947.70554698</real>
+			<key>timeStoppedRecording</key>
+			<real>575673952.04101896</real>
+			<key>title</key>
+			<string>Build midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>08457354-2626-4874-B46E-6B3D41352586</string>
+		</dict>
+		<key>1F868018-9C99-4BC7-A5AB-12801B824715</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1F868018-9C99-4BC7-A5AB-12801B824715.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575673130.47007799</real>
+			<key>timeStoppedRecording</key>
+			<real>575673133.46249294</real>
+			<key>title</key>
+			<string>Build midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>1F868018-9C99-4BC7-A5AB-12801B824715</string>
+		</dict>
+		<key>28FF96BF-D02B-4B1F-A985-BE39BB27D564</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>28FF96BF-D02B-4B1F-A985-BE39BB27D564.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575673558.887205</real>
+			<key>timeStoppedRecording</key>
+			<real>575673582.56933296</real>
+			<key>title</key>
+			<string>Build midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>28FF96BF-D02B-4B1F-A985-BE39BB27D564</string>
+		</dict>
+		<key>4321FF8F-7D54-402A-BF56-A63994D8D93E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4321FF8F-7D54-402A-BF56-A63994D8D93E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575673537.81952596</real>
+			<key>timeStoppedRecording</key>
+			<real>575673542.278494</real>
+			<key>title</key>
+			<string>Build midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>4321FF8F-7D54-402A-BF56-A63994D8D93E</string>
+		</dict>
+		<key>52568830-CB33-4BA9-A8E1-F9283555773E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>52568830-CB33-4BA9-A8E1-F9283555773E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575673041.28675306</real>
+			<key>timeStoppedRecording</key>
+			<real>575673044.82508504</real>
+			<key>title</key>
+			<string>Build midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>52568830-CB33-4BA9-A8E1-F9283555773E</string>
+		</dict>
+		<key>5E327D1A-C7A3-48E1-AE51-C3F05E469DA5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5E327D1A-C7A3-48E1-AE51-C3F05E469DA5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575672226.23593605</real>
+			<key>timeStoppedRecording</key>
+			<real>575672234.65814304</real>
+			<key>title</key>
+			<string>Build midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>5E327D1A-C7A3-48E1-AE51-C3F05E469DA5</string>
+		</dict>
+		<key>8C67FA69-6B68-42D1-B2B7-204AE55CF7ED</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8C67FA69-6B68-42D1-B2B7-204AE55CF7ED.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575673553.60714698</real>
+			<key>timeStoppedRecording</key>
+			<real>575673554.07718396</real>
+			<key>title</key>
+			<string>Clean midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>8C67FA69-6B68-42D1-B2B7-204AE55CF7ED</string>
+		</dict>
+		<key>DAE6659B-5AD8-472E-B01B-F058A1AEF092</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DAE6659B-5AD8-472E-B01B-F058A1AEF092.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575672577.21392798</real>
+			<key>timeStoppedRecording</key>
+			<real>575672582.91101205</real>
+			<key>title</key>
+			<string>Build midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>DAE6659B-5AD8-472E-B01B-F058A1AEF092</string>
+		</dict>
+		<key>F9FE4ABC-F11A-49E4-BEE3-8923F738ABE0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F9FE4ABC-F11A-49E4-BEE3-8923F738ABE0.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>midtermMakeup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>midtermMakeup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build midtermMakeup</string>
+			<key>timeStartedRecording</key>
+			<real>575671718.00671399</real>
+			<key>timeStoppedRecording</key>
+			<real>575671770.82759595</real>
+			<key>title</key>
+			<string>Build midtermMakeup</string>
+			<key>uniqueIdentifier</key>
+			<string>F9FE4ABC-F11A-49E4-BEE3-8923F738ABE0</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cmm-sJ-SFX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cmm-sJ-SFX">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -83,7 +83,7 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="YD7-Qd-gEd" id="EpS-F2-Lva"/>
-                        <segue destination="xJy-mw-n4O" kind="show" id="cd1-G3-D7J"/>
+                        <segue destination="xJy-mw-n4O" kind="show" identifier="appDetailsSegue" id="cd1-G3-D7J"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BKO-LE-0ML" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -128,7 +128,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1HP-hv-z2j"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="YBb-Dt-dno"/>
+                    <navigationItem key="navigationItem" title="Title" id="XAM-Tk-3vn"/>
                     <connections>
                         <outlet property="appTitle" destination="PmS-rt-7z4" id="mII-UX-3MX"/>
                         <outlet property="devName" destination="uzL-cQ-odb" id="NDc-iz-1Wm"/>
@@ -137,7 +137,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RZh-tL-rqG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2592" y="-568"/>
+            <point key="canvasLocation" x="2649" y="-564"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PH8-zM-4GT">
