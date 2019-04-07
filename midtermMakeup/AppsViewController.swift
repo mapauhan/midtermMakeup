@@ -13,10 +13,13 @@ class AppsViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     
     @IBOutlet weak var tableView: UITableView!
-    var appData: [String:Any] = [:]
+    var appData: [String:Any]?
     var selectedApp: String?
     var selectedCategory: String?
-    var selectedApps: [App]?
+    //var selectedApps: [App]?
+   // var myFeed: [String:Any]?
+    var myFeed: Feed?
+    var myResult: [[String:Any]]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,20 +34,32 @@ class AppsViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         // passes url from selectedCategory
         let url = category
-            
+        
             AF.request(url).responseJSON { (response) in
                 if response.result.isSuccess {
-                    print(response.result.value!)
-                    self.appData = response.result.value as! [String:Any]
-                    var myfeed = Feed(self.appData) as! [String:Any]
-                    var myResult = Results(myfeed)
+                    print("response = \(response.result.value!)")
+                    self.appData = response.result.value as? [String:Any]
+                    
+                    if self.appData != nil {
+                        self.myFeed = Feed(self.appData!["feed"] as! [String : Any])
+                        
+ //                       self.myFeed = (self.appData!["feed"] as! [String:Any])
+ //                       self.myResult = (self.myFeed!["results"] as! [[String:Any]])
+                    }
+   //                 self.myResult = (self.myFeed!["results"] as! [[String:Any]])
+                    //let myApp = Feed(self.appData)
+                    //let myResults = Results(myApp as! [String:Any])
+                    
+                    self.tableView.reloadData()
+                    
+                    //debugPrint("myfeed = \(myFeed)")
                     
                     
 
                   // var result = self.appData["feed"]![0]
                     
-                    let selectedApp = App(self.appData)
-                    print(myResult)
+                    //let selectedApp = App(self.appData)
+                   // print(self.myResult)
                     
                     //selectedApp.name = App.init(["result"["name"]]) as! String
                 }
@@ -57,12 +72,29 @@ class AppsViewController: UIViewController, UITableViewDataSource, UITableViewDe
         }
         
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-            return 5
+            if self.myFeed == nil {
+                return 0
+            } else {
+                return (self.myFeed!.feedData.count)
+            }
+            
         }
         
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let cell = self.tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! AppCellTableViewCell
-            //cell.nameLbl =
+            
+            self.myFeed?.getResults(rowIndex:indexPath.row)
+            cell .nameLbl.text = myFeed?.appName
+            cell.developerLbl.text = myFeed?.devName
+            cell.releaseDateLbl.text = myFeed?.releaseDate
+            
+            let myGenres = myFeed?.genres![0]
+            cell.genreLbl.text = myGenres?["name"] as! String
+            
+            
+            
+     //       cell.nameLbl.text = self.myFeed!.feedData[indexPath.row]["artistName"] as? String
+            
             return cell
             
             

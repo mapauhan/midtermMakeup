@@ -14,7 +14,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var appData = AppsData.urls
     var categories = [String]()
     var selectedCategory: String?
-    var selectedApps: [App] = []
+    //var selectedApps: [App] = []
     
     
     @IBOutlet weak var tableView: UITableView!
